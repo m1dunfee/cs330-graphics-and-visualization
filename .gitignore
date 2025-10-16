@@ -1,5 +1,9 @@
-# --- Ignore all other project folders ---
+# Ignore all projects...
 /Projects/*
+
+# ...but allow the Projects dir itself and Project 7 inside it
+!/Projects/
+!/Projects/7-1_FinalProjectMilestones/
 !/Projects/7-1_FinalProjectMilestones/**
 
 # --- Keep everything else ---
