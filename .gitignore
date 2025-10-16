@@ -1,18 +1,9 @@
-# Ignore all projects...
 /Projects/*
 
-# ...but allow the Projects dir itself and Project 7 inside it
 !/Projects/
 !/Projects/7-1_FinalProjectMilestones/
 !/Projects/7-1_FinalProjectMilestones/**
 
-# --- Keep everything else ---
-!Libraries/**
-!Utilities/**
-!3DShapes/**
-!.gitignore
-
-# --- Ignore VS caches and build outputs ---
 .vs/
 *.suo
 *.user
@@ -34,5 +25,6 @@ ARM*/
 *.cache
 Thumbs.db
 .DS_Store
+
 /Libraries/glm/doc/
 /Libraries/GLEW/doc/
