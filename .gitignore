@@ -30,3 +30,5 @@ ARM*/
 *.cache
 Thumbs.db
 .DS_Store
+/Libraries/glm/doc/
+/Libraries/GLEW/doc/
