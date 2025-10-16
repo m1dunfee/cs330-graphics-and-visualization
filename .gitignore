@@ -1,0 +1,32 @@
+# --- Ignore all other project folders ---
+/Projects/*
+!/Projects/7-1_FinalProjectMilestones/**
+
+# --- Keep everything else ---
+!Libraries/**
+!Utilities/**
+!3DShapes/**
+!.gitignore
+
+# --- Ignore VS caches and build outputs ---
+.vs/
+*.suo
+*.user
+*.VC.db
+*.opendb
+[Dd]ebug*/
+[Rr]elease*/
+x64/
+x86/
+ARM*/
+*.obj
+*.pdb
+*.idb
+*.ilk
+*.pch
+*.ipch
+*.tlog
+*.log
+*.cache
+Thumbs.db
+.DS_Store
